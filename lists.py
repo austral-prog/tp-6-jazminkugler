@@ -1,3 +1,18 @@
+def add_ elements(lista):
+	lista.insert(0, 'pink')
+	lista.append('yellow')
+	return lista
+
+lista = ['Red', 'Green', 'White', 'Black']	
+print(add_elements(lista))
+def add_ elements(lista):
+	lista.insert(0, 'pink')
+	lista.append('yellow')
+	return lista
+
+lista = ['Red', 'Green', 'White', 'Black']	
+print(add_elements(lista))
+
 def remove_elements(lista_to_remove_elements):
     len_lista = len(lista_to_remove_elements)
     if len_lista >= 6:
